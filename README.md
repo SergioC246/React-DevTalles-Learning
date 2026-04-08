@@ -1,12 +1,25 @@
-# 🚀 React DevTalles Learning
+<div align="center">
 
-Repositorio donde documento mi progreso en el curso **React: de cero a experto** impartido por Fernando Herrera en DevTalles.
+<img src="https://capsule-render.vercel.app/api?type=venom&height=200&text=React%20DevTalles&fontSize=60&color=0:0f0c29,100:302b63&fontColor=ffffff&animation=twinkling&desc=React%3A%20de%20cero%20a%20experto%20%7C%20Fernando%20Herrera&descAlignY=75&descSize=16" width="100%"/>
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=600&size=20&pause=1000&color=61DAFB&center=true&vCenter=true&width=750&lines=Aprendiendo+React+desde+cero+%F0%9F%9A%80;React+%2B+TypeScript+%2B+Vite;Curso+DevTalles+%7C+Fernando+Herrera;Learning+by+doing+%E2%9C%A8)](https://git.io/typing-svg)
+
+<br/>
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
+
+</div>
 
 ---
 
-## 📚 Descripción
+## ⚛️ ¿Qué es este repositorio?
 
-Este proyecto contiene ejercicios, prácticas y ejemplos desarrollados durante el curso, organizados por módulos para facilitar el aprendizaje progresivo de React con TypeScript.
+Documentación de mi progreso en el curso **React: de cero a experto** impartido por **Fernando Herrera** en [DevTalles](https://devtalles.com).
+
+> Cada módulo es un proyecto o conjunto de ejercicios que refleja lo aprendido paso a paso. Más que código del curso, este repo es mi **proceso real de aprendizaje**.
 
 ---
 
@@ -21,43 +34,54 @@ React/
 
 ---
 
-## 🎯 Objetivo
+## 🎯 Objetivos del curso
 
-* Aprender React desde cero
-* Dominar TypeScript aplicado a React
-* Practicar buenas prácticas de desarrollo
-* Mejorar el uso de Git y control de versiones
-* Construir una base sólida como desarrollador Front-End
+- Aprender React desde cero hasta nivel avanzado
+- Dominar TypeScript aplicado a componentes y hooks
+- Practicar buenas prácticas de desarrollo frontend
+- Mejorar el flujo de trabajo con Git y control de versiones
+- Construir una base sólida como desarrollador Front-End
 
 ---
 
 ## 🛠️ Tecnologías utilizadas
 
-* ⚛️ React
-* 🟦 TypeScript
-* ⚡ Vite
-* 🧹 ESLint
+| Tecnología | Uso |
+|------------|-----|
+| ⚛️ React | Librería principal |
+| 🟦 TypeScript | Tipado estático |
+| ⚡ Vite | Bundler y dev server |
+| 🧹 ESLint | Calidad del código |
 
 ---
 
-## 📈 Progreso
+## 📈 Progreso del curso
 
-* ✅ 01-reforzamiento — Completado
-* 🚧 02-first-steps — En desarrollo
+| Módulo | Tema | Estado |
+|--------|------|--------|
+| 01 | Reforzamiento JS/TS | ✅ Completado |
+| 02 | Primeros pasos con React | 🚧 En desarrollo |
 
 ---
 
 ## 🧠 Notas personales
 
-Este repositorio no solo contiene código del curso, sino también mi propio proceso de aprendizaje, experimentación y mejora continua como desarrollador.
+Este repositorio no solo contiene el código del curso — también incluye mi propio proceso de experimentación, errores, soluciones y mejora continua como desarrollador.
 
 ---
 
 ## 📌 Autor
 
-**Sergio**
-[GitHub Profile](https://github.com/SergioC246)
+**Sergio Córdoba**
+
+[![GitHub](https://img.shields.io/badge/GitHub-SergioC246-181717?style=for-the-badge&logo=github)](https://github.com/SergioC246)
 
 ---
 
-✨ *Learning by doing — construyendo habilidades paso a paso*
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,100:302b63&height=100&section=footer" width="100%"/>
+
+*Learning by doing — construyendo habilidades paso a paso ✨*
+
+</div>
