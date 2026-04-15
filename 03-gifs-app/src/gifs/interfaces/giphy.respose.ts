@@ -12,7 +12,6 @@ export interface GiphyGif {
   bitly_gif_url: string;
   bitly_url: string;
   embed_url: string;
-  username: string;
   source: string;
   title: string;
   rating: Rating;
@@ -92,14 +91,9 @@ export interface FixedHeight {
   hash?: string;
 }
 
-export enum Rating {
-  G = "g",
-  PG = "pg",
-}
+export type Rating = 'G' | 'PG';
 
-export enum Type {
-  GIF = "gif",
-}
+export type Type = 'gif';
 
 export interface Meta {
   status: number;
