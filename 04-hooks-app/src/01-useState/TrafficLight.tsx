@@ -4,10 +4,19 @@ const colors = {
   red: 'bg-red-500 animate-pulse',
   yellow: 'bg-yellow-500 animate-pulse',
   green: 'bg-green-500 animate-pulse',
-}
+};
+
+type TrafficLightColor = 'red' | 'yellow' | 'green';
 
 export const TrafficLight = () => {
-  const [light, setLight] = useState('red');
+  const [light, setLight] = useState<TrafficLightColor>('red');
+
+  const handleColorChange = (color: TrafficLightColor) => {
+    setLight((prev) => {
+      console.log({ prev })
+      return color;
+    });
+  };
 
   return (
     <div className="min-h-screen bg-linear-to-br from-slate-900 via-gray-900 to-slate-800 flex items-center justify-center p-4">
@@ -32,19 +41,19 @@ export const TrafficLight = () => {
         <div className="flex gap-2">
           <button
             className="bg-red-500 text-white px-4 py-2 rounded-md cursor-pointer"
-            onClick={() => setLight('red')}
+            onClick={() => handleColorChange('red')}
           >
             Rojo
           </button>
           <button
             className="bg-yellow-500 text-white px-4 py-2 rounded-md cursor-pointer"
-            onClick={() => setLight('yellow')}
+            onClick={() => handleColorChange('yellow')}
           >
             Amarillo
           </button>
           <button
             className="bg-green-500 text-white px-4 py-2 rounded-md cursor-pointer"
-            onClick={() => setLight('green')}
+            onClick={() => handleColorChange('green')}
           >
             Verde
           </button>
